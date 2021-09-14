@@ -1,0 +1,9 @@
+* TODO Initial release
+- [ ] 14-09 Release
+  - [ ] Calculator copy
+    - [ ] Copy base styling and assets
+    - [ ] Add custom logic for calc
+    - [ ] Check adaptive
+  - [ ] Copy tabs
+    - [ ] Copy blocks with tabs html
+    - [ ] Add download on logic
