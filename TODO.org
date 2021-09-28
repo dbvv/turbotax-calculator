@@ -1,8 +1,8 @@
 * TODO Initial release
-- [ ] 14-09 Release [0%]
-  - [ ] Calculator copy [0/3]
-    - [ ] Copy base styling and assets
-      - [ ] Copy steps layout
+- [-] 14-09 Release [0%]
+  - [-] Calculator copy [0/3]
+    - [-] Copy base styling and assets
+      - [X] Copy steps layout
       - [ ] Copy single step
     - [ ] Add custom logic for calc
     - [ ] Check adaptive
