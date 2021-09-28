@@ -6,7 +6,7 @@
        :title="s.title"
        :icon="s.icon"
        :badge="s.badge"
-       :selected="selected === s.slug"
+       :selected="selected.indexOf(s.slug) !== -1"
        @selectedItem="selectSituation"
        :key="s.slug"/>
     
@@ -42,16 +42,16 @@
           {
             title: 'I\'m paying off student loans',
             badge: false,
-            icon: 'assets/icon-student-loans expert-review-icon.svg',
+            icon: 'assets/icon-student-loans.svg',
             slug: 'student-loans'
-          }
-        ]
+          },
+        ],
       }
     },
 
     methods: {
       selectSituation(situation) {
-        this.$emit('selectSituation', situation);
+        this.$emit('selectSituation', situation, 'add');
       }
     }
   }

@@ -79,7 +79,14 @@
 
       selectMySituation(situation) {
         console.log({situation})
-
+        const index = this.selectedMySituation.indexOf(situation);
+        if (index === -1) {
+          this.selectedMySituation.push(situation);
+        } else {
+          const arr = this.selectedMySituation;
+          arr.splice(index, 1);
+          this.selectedMySituation = arr;
+        }
       }
     }
   }
